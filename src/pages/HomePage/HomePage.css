@@ -1,0 +1,1023 @@
+
+/* 
+.main-container{
+    border: 2px solid grey;
+    margin: 12px;
+    width:auto;
+    height:100%;
+    background: #E76D6D;
+    position: static;
+} */
+
+/*  Navbar styling starts from here  */
+
+/* .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #232323;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    flex-wrap: wrap;
+    
+}
+.logo{
+    background: #fff;
+    margin-left: -122px;
+    
+}
+.logoname{
+    margin: 8px;
+    display: flex;
+    
+    flex-wrap: wrap;
+    background: #17cf97;
+    justify-content: space-between;
+}
+#imgl{
+     width: 150px;
+     left: 0%;
+     padding-top: 0px;
+}
+
+.first-part-logo-name{
+    font-family: "fredoka One";
+    font-size: 50px;
+    padding-top: 12px;
+    color: white;
+    overflow: hidden;
+}
+.second-part-logo-name{
+   font-family: "fredoka One";
+   font-size: 50px;
+   color: rgb(99, 225, 99);
+   padding-top: 12px;
+   overflow: hidden;
+ 
+}
+.option{
+    flex-wrap: wrap;
+}
+#navbar-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #3317cf;
+}
+#navbar-links li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar-links li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+#navbar-links li a:hover,
+#navbar-links li a.active{
+    color: #17cf97;
+}
+#navbar-links li a:hover::after,
+#navbar-links li a.active::after
+{
+
+    content: " ";
+    width: 30%;
+    height: 2px;
+    background: #17cf97;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.button{
+    background: #fff;
+    flex-wrap: wrap;
+   
+    justify-content: space-evenly;
+    
+    align-items: center;
+}
+
+.button #btn{
+    height: 35px;
+    width: 90px;
+    background-color: #E76D6D;
+    border-radius: 8px;
+    border-color: white;
+    color: white;
+}
+
+#mobile{
+    display: none;
+    color: #fff;
+}
+@media only screen and (max-width: 768px) {
+
+    .options{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background-color: #232323;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+        position: fixed;
+        top: 90px;
+        right: 0px;
+        width: 300px;
+        height: 100vh;
+        padding: 40px 0  0 10px;
+        
+    }
+    #mobile{
+        display: block;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .options #li{
+        margin-bottom: 25px;
+    }
+}
+@media only screen and (max-width: 414px) {
+
+
+} */
+/*  Navbar styling Ends   */
+
+
+/* Navbar styling starts from here */
+
+#imgl{
+   width: 60px;
+   height: 60px;
+   padding: 0;
+   top: 0%;
+   bottom: 0%;
+   margin-left: 20px;
+   background-color: #fff;
+   
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #232323;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: #17cf97;
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #17cf97;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+.button{
+    
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-evenly
+    
+  
+}
+
+.button #btn{
+    height: 35px;
+    width: 90px;
+    background-color: #E76D6D;
+    border-radius: 8px;
+    border-color: white;
+    color: white;
+}
+
+.button #btn:hover{
+    color: black;
+    background-color: #fff;
+    border-color:#E76D6D ;
+}
+
+#mobile{
+    display: none;
+}
+#bar{
+    color: #fff;
+}
+
+@media screen and (max-width:769px){
+    #navbar{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: fixed;
+        top: 90px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background: #2a3239;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 40px 0 0 10px;
+        
+    }
+
+    #navbar.active{
+        right: 0px;
+    }
+
+    #navbar li{
+        margin-bottom: 25px;
+    }
+
+    #mobile{
+        display: block;
+    }
+
+    #bars{
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .button{
+        display:block;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+} 
+
+
+/* Navbar styling ends  */
+
+/*  Main Code Starts Here */
+
+.mainbody{
+    background-image: linear-gradient(#87c09d,#87c09d,rgb(210, 229, 201),#a8b7dc,#7EA6C3,#737C95);
+    overflow: hidden;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+  /* tag line area code styling in CSS starts from here */
+
+.tagline-area{
+    background-color: #fff;
+    height: 300px;
+    width: 1152px;
+    left: 57px;
+    top: 186px;
+    border-radius: 50px;
+    display: flex;
+    /* border: 1px solid black; */
+    margin-top: 61px;
+    margin-right: 61px;
+    margin-left: 61px;
+    overflow: hidden;
+   
+}
+#imgl1{
+    background-color: #fff;
+    border-radius: 50px;
+    border: 1px solid  #fff;
+    height: 345px;
+    width: 400px;
+    margin-left: 60px;
+    
+    
+}
+.content{
+    
+    margin-left: 100px;
+    justify-content: space-around;
+}
+.first-tag-name{
+   color: black;
+   font-weight: 700;
+   font-size: xx-large;
+}
+.second-tag-name{
+   color: #17cf97;
+   font-weight: 700;
+   font-size: xx-large;
+   margin-left: 9px;
+}
+.third-tag-name{
+    color: black;
+    font-weight: 700;
+    font-size: xx-large;
+}
+#tagline{
+
+}
+#description{
+   font-weight: 250;
+   margin-top: 15px;
+}
+
+
+@media screen and (max-width:769px){
+    .tagline-area{
+        
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        flex-shrink: calc(2.5);
+    }
+}
+@media screen and (max-width:595px){
+    .tagline-area{
+        display: block;
+        overflow: hidden;
+        height: 500px;
+        width: 200px;
+    }
+
+    #imgl1{
+        background-color: #fff;
+        border-radius: 50px;
+        border: 1px solid  #fff;
+        height: 345px;
+        width: 200px;
+        margin-left: 30px;
+        text-align: center;
+        
+    }
+    .content{
+        display: block;
+        margin-left: 50px;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 25px;
+
+    }
+}
+
+@media screen and (max-width:1225px){
+
+    .tagline-area{
+    background-color: #fff;
+    height: 300px;
+    width: 1000px;
+    border-radius: 50px;
+    display: flex;
+    margin-top: 61px;
+    margin-right: 61px;
+    margin-left: 61px;
+    overflow: hidden;
+    }
+
+}
+@media screen and (max-width:1068px){
+    .tagline-area{
+        
+        display: block;
+        width: fit-content;
+        height: fit-content;
+       
+    }
+}
+  /* tag line area code styling in CSS ends   here */
+
+
+  /* Category area code styling in CSS starts from   here */
+   
+  .categories-area{
+
+    /* border: 1px solid black; */
+    margin: 5px;
+     
+  }
+  
+  #Title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+
+    .divider{
+        width: 60px;
+        height: 3px;
+        background-color: #232323;
+        display: inline-block;
+    }
+
+    #imgl2{
+        width: 50px;
+        height: 55px;
+    }
+
+  .categories-area #category-title{
+    
+  }
+
+  #first-category-row{
+
+     display: flex;
+     justify-content: space-evenly;
+  }
+  .tax{
+    text-align: center;
+  }
+  .family{
+    text-align: center;
+  }
+  #second-category-row{
+
+     display: flex;
+     justify-content: space-evenly;
+     margin-left: 120px;
+     margin-right: 120px;
+     margin-top: 60px;
+     margin-bottom: 60px;
+  }
+
+  @media screen and (max-width:595px){
+     
+  .categories-area{
+
+   
+    margin: 5px;
+     
+  }
+  
+  #Title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+
+    .divider{
+        width: 60px;
+        height: 3px;
+        background-color: #232323;
+        display: inline-block;
+    }
+
+    #imgl2{
+        width: 50px;
+        height: 55px;
+    }
+
+  
+    #first-category-row{
+
+     display: flex;
+     justify-content: space-evenly;
+    }
+   .tax{
+    text-align: center;
+    }
+   .family{
+    text-align: center;
+   }
+
+  #second-category-row{
+
+     display: flex;
+     
+  }
+
+
+  }
+
+  /* Category area code styling in CSS ends from   here */
+
+  /* About us  area code styling in CSS starts from   here */
+
+
+     .about-us-area{
+        display: flex;
+        /* border: 2px solid black; */
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+    .about-us-name{
+        color: #CC3263;
+        text-align: center;
+        
+    }
+    .about-us-name .divider{
+        width: 60px;
+        height: 3px;
+        background-color:#CC3263;
+        display: inline-block;
+        margin-top: 0px;
+    }
+    .about-us-underline{
+
+    
+    }
+    
+    .about-us-underline .divider{
+        width: 3px;
+        height: 200px;
+        background-color:#010101;
+        display: inline-block;
+        margin-top: 0px;
+    }
+    .about-us-content{
+        color: #686868;
+        
+    }
+    
+    @media screen and (max-width:595px){
+    
+        .about-us-area{
+            display: block;
+            
+        }
+
+        .about-us-underline .divider{
+            width: 400px;
+            height: 3px;
+            background-color:#010101;
+            display: inline-block;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .about-us-content{
+            color: #686868;
+            width: 300px;
+            margin-left: 25px;
+        }
+
+    }
+
+   /* About us  area code styling in CSS ends   here */
+
+   /* Review  area code styling in CSS starts from   here */
+    .reviews-area{
+          margin-top: 40px;
+          margin-bottom: 40px;
+          
+    } 
+           
+   .reviews-title{
+      color: #284285;
+      text-align: center;
+   }
+
+   .reviews-title .divider{
+    width: 60px;
+    height: 3px;
+    background-color: #284285;
+    display: inline-block;
+    margin-top: 0px;
+    }
+
+   .reviews-grid{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 75px;
+    margin-right: 75px;
+   }
+   .arrow-left-container{
+     width: 55px;
+     height: 55px;
+     background-color: #304368;
+     border-radius: 12px;
+     text-align: center;
+     margin-top: 150px;
+     
+   }
+   .arrow-right-container{
+    width: 55px;
+    height: 55px;
+    background-color: #304368;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 150px;
+  }
+  #imgl3{
+    background-color: #304368;
+    width: 22px;
+    height: 22px;
+    mix-blend-mode:lighten;
+    margin-top: 15px;
+  }
+ 
+.main-grid{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    width: 900px;
+    height: 370px;
+}
+
+.main-grid #grid-item{
+    margin-top: 12px;
+    margin-left: 150px;
+    margin-right: 10px;
+    flex-shrink: 0;
+    height: 330px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+}
+
+.main-grid #grid-item #grid-item-profile-pic{
+   
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+    background-color: #D9D9D9;
+    margin-top: 15px;
+    border-radius: 40px;
+    margin-left: 85px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+@media screen and (max-width:595px){
+    .reviews-area{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+  } 
+         
+ .reviews-title{
+    color: #284285;
+    text-align: center;
+ }
+
+ .reviews-title .divider{
+  width: 60px;
+  height: 3px;
+  background-color: #284285;
+  display: inline-block;
+  margin-top: 0px;
+  }
+
+ .reviews-grid{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+ }
+ .arrow-left-container{
+   width: 55px;
+   height: 55px;
+   background-color: #304368;
+   border-radius: 12px;
+   text-align: center;
+   margin-top: 150px;
+   
+ }
+ .arrow-right-container{
+  width: 55px;
+  height: 55px;
+  background-color: #304368;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 150px;
+}
+#imgl3{
+  background-color: #304368;
+  width: 22px;
+  height: 22px;
+  mix-blend-mode:lighten;
+  margin-top: 15px;
+}
+
+.main-grid{
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  width: 250px;
+  height: 370px;
+  
+}
+
+.main-grid #grid-item{
+  margin-top: 12px;
+  margin-left: 150px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  height: 330px;
+  width: 200px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  
+}
+
+.main-grid #grid-item #grid-item-profile-pic{
+ 
+  width: 75px;
+  height: 75px;
+  flex-shrink: 0;
+  background-color: #D9D9D9;
+  margin-top: 15px;
+  border-radius: 40px;
+  margin-left: 56px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+}
+
+   /* Review  area code styling in CSS ends  here */
+
+
+   /* faq  area code styling in CSS starts from  here */
+
+    
+   .faq-area{
+
+       display: flex;
+       width: 1273px;
+       height: 370px;
+       margin: 4px;
+       margin-bottom: 40px;
+       justify-content: space-evenly;
+   }
+
+   .faq-area-box{
+        
+       
+       width: 700px;
+       height: 320px;
+       /* background-color: #D9D9D9; */
+       background-color: #E9EDF5;
+       mix-blend-mode:luminosity
+   }
+
+   .faq-area-underline .divider{
+    width: 3px;
+    height: 270px;
+    background-color:#ffffff;
+    display: inline-block;
+    margin-top: 25px;
+       
+
+   }
+  
+
+   .faq-area-title{
+    color: #E9EDF5;
+    text-align: center;
+    margin-top: 125px;
+   }
+
+   .faq-area-title .divider{
+    width: 60px;
+    height: 3px;
+    background-color:#E9EDF5;
+    display: inline-block;
+    margin-top: 0px;
+   }
+
+   @media screen and (max-width:595px){
+    
+    .faq-area{
+        display: block;
+        margin-left: 9px;
+        width: max-content;
+        height: max-content;
+        margin-right: 2px;
+        
+    }
+    
+    .faq-area-title{
+        color: #E9EDF5;
+        margin-top: 0px;
+        width: 40px;
+        width:370px;
+       
+    }
+    
+    .faq-area-title .divider{
+        width: 60px;
+        height: 3px;
+        background-color:#E9EDF5;
+        
+       }
+    
+       .faq-area-underline{
+        
+        align-items: center;
+
+        margin: 5px;
+       }
+    
+   .faq-area-underline .divider{
+    width: 270px;
+    height: 3px;
+    background-color:#ffffff;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 25px;
+
+   }
+
+   .faq-area-box{
+    width: 320px;
+    height: 500px;
+    margin: 20px;
+    background-color: #E9EDF5;
+    mix-blend-mode:luminosity
+   }
+    
+   }
+
+   /* faq area code styling in CSS ends  here */
+
+
+   /* Footer area code styling in CSS starts from  here */
+
+     .footer{
+        color: #fff;
+        background-color: #232323;
+        /* width: 1280px; */
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: space-evenly;
+     }
+     
+     .footer-tagline{
+        
+        
+        
+     }
+     .footer-tagline  #footer-tagline-quotes{
+        font-size: 0.85rem;
+     }
+    
+     .footer-product{
+        text-align: center;
+        
+
+     }
+     .footer-product .divider{
+        width: 60px;
+        height: 3px;
+        background-color:#fff;
+        display: inline-block;
+        margin-top: 0px;
+      
+     }
+
+
+     .footer-company{
+        text-align: center;
+       
+     }
+    .footer-company .divider{
+        width: 60px;
+        height: 3px;
+        background-color:#fff;
+        display: inline-block;
+        margin-top: 0px;
+
+    }
+
+
+    .footer-support{
+        text-align: center;
+        
+
+    }
+    .footer-support .divider{
+        width: 60px;
+        height: 3px;
+        background-color:#fff;
+        display: inline-block;
+        margin-top: 0px;
+
+    }
+    
+
+    .footer-contact-us{
+        text-align: center;
+        
+    }
+    .footer-contact-us .divider{
+        width: 60px;
+        height: 3px;
+        background-color:#fff;
+        display: inline-block;
+        margin-top: 0px;        
+
+    }
+     
+
+    #footer-li{
+        list-style: none;
+        padding: 0 20px;
+        position: relative;
+     }
+ 
+     #footer-li a{
+     text-decoration: none;
+     font-size: 0.9rem;
+     font-weight: 600;
+     color: #fff;
+     }
+     #footer-li a:hover{
+        color: #17cf97;
+     }
+
+     #footer-ul{
+        margin-top: 15px;
+     }
+
+     @media screen and (max-width:769px){
+  
+        .footer{
+
+            display: block;
+            padding: 20px;
+            height: 100%;
+        }
+
+        .footer-tagline{
+        
+        text-align: center;
+        margin-bottom: 35px;
+        
+        }
+
+        .footer-tagline .divider{
+       
+        width: 100%;
+        height: 3px;
+        background-color:#fff;
+        display: inline-block;
+        margin-top: 0px;  
+           
+        }
+
+        .footer-product{
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .footer-company{
+            text-align: center;
+            margin-bottom: 35px;
+
+        }
+
+        .footer-support{
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .footer-contact-us{
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+     }
+   /* Footer area code styling in CSS ends  here */
